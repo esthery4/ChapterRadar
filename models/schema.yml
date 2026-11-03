@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: novel_chapter_updates
+    description: "Detects chapter changes using SQL window functions."
+    columns:
+      - name: title
+        tests:
+          - not_null
+      - name: chapter_number
+        tests:
+          - not_null
+
+  - name: latest_novel_status
+    description: "Shows the latest chapter observation for each novel."
+    columns:
+      - name: title
+        tests:
+          - not_null
+          - unique

@@ -1,0 +1,12 @@
+name: 'novel_new_chapter_tracker'
+version: '1.0.0'
+config-version: 2
+
+profile: 'novel_new_chapter_tracker'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  novel_new_chapter_tracker:
+    +materialized: view
