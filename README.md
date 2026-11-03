@@ -7,7 +7,7 @@ Tracking chapter updates with **Python, SQL, Databricks, and dbt**.
 
 *Python | SQL | Databricks | dbt Core | Data Visualization*
 
-## ✨ About the Project
+## About the Project
 
 As someone who enjoys reading, especially fictional novels and manga, I wanted to create something that could help me keep track of new chapter releases without having to check each title individually.
 
@@ -21,7 +21,7 @@ For this portfolio demonstration, I created a synthetic dataset with **8 titles 
 
 Feel free to use this project as a starting point and customize it for your favorite reading platforms!
 
-## 🎯 What I Wanted to Solve
+## What I Wanted to Solve
 
 When you're following multiple titles, it's easy to lose track of which ones have new chapters and which ones haven't been updated.
 
@@ -36,7 +36,7 @@ My goals were to:
 
 Although this is a personal project, the same approach can be applied to business problems involving data monitoring, change detection, and reporting.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | How I Used It |
 |---|---|
@@ -47,7 +47,7 @@ Although this is a personal project, the same approach can be applied to busines
 | **Databricks AI/BI** | Created an interactive dashboard |
 | **GitHub** | Documented and shared the project |
 
-## 🔄 How It Works
+## How It Works
 
 **Python → CSV → Databricks Delta Lake → dbt & SQL → Dashboard**
 
@@ -74,7 +74,7 @@ I implemented four dbt tests to check for missing values and duplicate titles in
 
 Finally, I created an interactive Databricks dashboard that shows chapter progression, recent updates, and the latest chapter for each title.
 
-## 📊 Dashboard
+## Dashboard
 
 The **Chapter Tracker** dashboard makes it easy to see which titles have new chapters and which ones haven't changed.
 
@@ -100,7 +100,7 @@ I also gained more hands-on experience with Databricks and dbt, especially how d
 
 As an MBA student with a background in MIS and Finance, I enjoyed being able to combine my technical skills with something creative and personally interesting.
 
-## 🚀 What's Next?
+## What's Next?
 
 There are a few features I'd love to explore as I continue improving this project:
 
@@ -120,7 +120,7 @@ There are a few features I'd love to explore as I continue improving this projec
 | `models/schema.yml` | Defines dbt data quality tests |
 | `dbt_project.yml` | Configures the dbt project |
 
-## ▶️ Running the Project
+## Running the Project
 
 1. Generate the dataset with `python generate_sample_data.py`.
 2. Import the CSV into the Databricks table `workspace.novel_portfolio.chapter_history`.
@@ -129,7 +129,7 @@ There are a few features I'd love to explore as I continue improving this projec
 5. Run `dbt test --profiles-dir .` to validate the data.
 6. Use the transformed views to build or explore a Databricks dashboard.
 
-## 📝 A Note About the Data
+## A Note About the Data
 
 This project uses simulated chapter observations for educational and portfolio purposes. Some titles reference existing published works, but the chapter numbers, dates, and release events are fictional and do not represent actual publication activity.
 
