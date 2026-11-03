@@ -3,8 +3,6 @@
 
 **A Personal Data Engineering & Analytics Project** by Esthery4
 
-Tracking chapter updates with **Python, SQL, Databricks, and dbt**.
-
 *Python | SQL | Databricks | dbt Core | Data Visualization*
 
 ## About the Project
@@ -74,9 +72,13 @@ I implemented four dbt tests to check for missing values and duplicate titles in
 
 Finally, I created an interactive Databricks dashboard that shows chapter progression, recent updates, and the latest chapter for each title.
 
-## Dashboard
+## 📊 Dashboard Preview
 
-The **Chapter Tracker** dashboard makes it easy to see which titles have new chapters and which ones haven't changed.
+[📄 View the ChapterRadar Dashboard (PDF)](assets/ChapterRadar_Dashboard.pdf)
+
+*Databricks AI/BI dashboard exported as a PDF using simulated chapter data.*
+
+The **ChapterRadar** dashboard makes it easy to see which titles have new chapters and which ones haven't changed.
 
 It includes:
 
@@ -86,9 +88,7 @@ It includes:
 - Latest chapter numbers and update statuses
 - Title and date filters
 
-*Dashboard screenshot coming soon.*
-
-## 💡 What I Learned
+## What I Learned
 
 One of my biggest takeaways was learning that **collecting data and making sense of data are two different things**.
 
@@ -109,7 +109,7 @@ There are a few features I'd love to explore as I continue improving this projec
 - Send notifications when new chapters are detected.
 - Explore more useful metrics and dashboard features.
 
-## 📁 Project Files
+## Project Files
 
 | File | Description |
 |---|---|
